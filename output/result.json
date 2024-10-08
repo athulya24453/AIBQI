@@ -1,0 +1,32 @@
+{
+    "success": true,
+    "message": "Image processed successfully.",
+    "results": {
+        "detected_objects": [
+            {
+                "label": "Cat",
+                "confidence": 0.95,
+                "bounding_box": {
+                    "x": 100,
+                    "y": 150,
+                    "width": 80,
+                    "height": 60
+                }
+            },
+            {
+                "label": "Dog",
+                "confidence": 0.89,
+                "bounding_box": {
+                    "x": 200,
+                    "y": 100,
+                    "width": 120,
+                    "height": 80
+                }
+            }
+        ],
+        "metadata": {
+            "image_name": "uploaded_image.png",
+            "processing_time": "0.45 seconds"
+        }
+    }
+}
